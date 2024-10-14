@@ -5,22 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
     <style>
         header {
             background-color: rgba(0, 0, 255, 0.773);
-            font-size: 2.5em;
-            padding: 20px;
+            font-size: 2em;
+            padding: 1em 2em;
             text-align: right;
+            font-family: londrina sketch;
         }
 
-        header a {
-            color: aliceblue;
+        nav a {
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         main {
             text-align: center;
             margin: auto;
+        }
 
+        main h1{
+            font-family: londrina sketch;
+            font-size: 3.5em;
+        }
+
+        .fontcolor {
+            color: blue;
         }
 
         p {
@@ -32,6 +48,9 @@
             background-color: burlywood;
             margin: 0px 10%;
             font-style: italic;
+            border-radius: 30px;
+            font-size: 0.9em;
+            padding: 3%;
         }
 
         footer {
@@ -48,12 +67,14 @@
 
 <body>
     <header>
-        <a style="color: chartreuse;" href="https://www.csl.lu/fr/lllc/" target="_blank">LLLC</a>
-        <a style="color: aqua;" href="https://word.lu/" target="_blank">WORD</a>
-        <a style="color: brown;" href="https://guichet.public.lu/fr/citoyens.html" target="_blank">Guichet.lu</a>
+        <nav>
+            <a style="color: chartreuse;" href="https://www.csl.lu/fr/lllc/" target="_blank">LLLC</a>
+            <a style="color: aqua;" href="https://word.lu/" target="_blank">WORD</a>
+            <a style="color: rgb(242, 255, 5);" href="https://guichet.public.lu/fr/citoyens.html" target="_blank">Guichet.lu</a>
+        </nav>
     </header>
     <main>
-        <h1>Welcome to our school</h1>
+        <h1>Welcome to our school 🏫</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem voluptas debitis veniam maxime vitae
             tempora dignissimos fugiat cumque soluta unde vero, porro dicta fuga? Eveniet, molestiae sequi eum, facilis,
             assumenda voluptatem iste laboriosam odit modi quasi hic perspiciatis ab. Nulla quas culpa hic ipsa
@@ -74,14 +95,19 @@
             similique deserunt nostrum rerum incidunt velit tempore, quia quaerat. Iste numquam labore sapiente
             assumenda tenetur totam illum laudantium consectetur. Odit, officia debitis dignissimos soluta illum in
             consectetur aliquam inventore unde quidem fugiat sequi eligendi cum possimus illo numquam aperiam maiores,
-            pariatur recusandae earum suscipit doloribus tenetur laborum nulla? Harum quis perferendis ea facilis,
-            facere laboriosam quidem. Blanditiis fuga provident ab laborum ipsum expedita reiciendis, unde dolorem fugit
-            dignissimos possimus quod repudiandae modi rerum ipsam aut. Eligendi doloremque totam cumque consectetur
-            voluptate obcaecati illo quaerat repellat sed fugiat. Iure error saepe, atque numquam hic earum illum fuga
-            alias facilis laboriosam sed minima praesentium beatae tempora recusandae temporibus id qui magni
-            consequuntur maiores quas? Labore necessitatibus eos odio quam suscipit voluptate delectus facere. Illo cum
-            minima aut, amet eaque rem tenetur autem adipisci minus a numquam natus nihil maxime aperiam fugiat? Eos
-            pariatur rerum dicta exercitationem, harum nemo officia nam alias, consequatur, voluptatibus quos odit
+            pariatur recusandae earum suscipit doloribus tenetur <span class="fontcolor">
+                laborum nulla? Harum quis perferendis ea facilis,
+                facere laboriosam quidem. Blanditiis fuga provident ab laborum ipsum expedita reiciendis, unde dolorem
+                fugit
+                dignissimos possimus quod repudiandae modi rerum ipsam aut. Eligendi doloremque totam cumque consectetur
+                voluptate obcaecati illo quaerat repellat sed fugiat. Iure error saepe, atque numquam hic earum illum
+                fuga
+                alias facilis laboriosam sed minima praesentium beatae tempora recusandae temporibus id qui magni
+                consequuntur maiores quas? Labore necessitatibus eos odio quam suscipit voluptate delectus facere. Illo
+                cum
+                minima aut, amet eaque rem tenetur autem adipisci minus a numquam natus nihil maxime aperiam fugiat? Eos
+                pariatur rerum dicta exercitationem, harum nemo officia nam alias
+            </span>, consequatur, voluptatibus quos odit
             porro. Iure soluta voluptas repudiandae praesentium doloremque quidem non est velit provident, harum,
             asperiores vel magni ab explicabo eveniet debitis voluptatum aut accusantium aliquam pariatur culpa.
             Molestias facilis facere dolores ullam ipsum, molestiae maiores voluptas. Repellendus corrupti rem dolores
